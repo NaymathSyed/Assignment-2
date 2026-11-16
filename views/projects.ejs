@@ -1,67 +1,21 @@
 <%- include('partials/header') %>
 
 <section class="page-section">
+    <h1>Projects</h1>
 
-    <h1 class="page-title">My <span>Projects</span></h1>
+    <div class="project-list">
+        <article class="project">
+            <h2>Distraction blocking</h2>
+            <p>I wrote small Python programs to block distractions while I work.</p>
+            <p class="project-tools"><i class="fa-brands fa-python" aria-hidden="true"></i> Python</p>
+        </article>
 
-    <p class="page-description">
-        Here are some projects I have worked on
-        while learning programming and technology.
-    </p>
-
-    <div class="row mt-5">
-
-        <!-- Project 1 -->
-        <div class="col-md-6 mb-4">
-            <div class="project-card">
-
-                <div class="project-icon">
-                    <i class="fa-brands fa-python"></i>
-                </div>
-
-                <h3>Python Programming</h3>
-
-                <p>
-                    Beginner Python programs created
-                    to block distractions to improve focus
-                    and productivity.
-                </p>
-
-                <div class="skill-tags">
-                    <span>Python</span>
-                    <span>Programming</span>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Project 2 -->
-        <div class="col-md-6 mb-4">
-            <div class="project-card">
-
-                <div class="project-icon">
-                    <i class="fa-solid fa-globe"></i>
-                </div>
-
-                <h3>Portfolio Website</h3>
-
-                <p>
-                    A personal portfolio website
-                    developed using Express.js,
-                    EJS, Bootstrap, and CSS.
-                </p>
-
-                <div class="skill-tags">
-                    <span>Express.js</span>
-                    <span>EJS</span>
-                    <span>Bootstrap</span>
-                </div>
-
-            </div>
-        </div>
-
+        <article class="project">
+            <h2>Portfolio website</h2>
+            <p>I built this site with Express, used EJS for the page templates, and styled it with Bootstrap and CSS.</p>
+            <p class="project-tools"><i class="fa-solid fa-code" aria-hidden="true"></i> Express.js, EJS, Bootstrap, CSS</p>
+        </article>
     </div>
-
 </section>
 
 <%- include('partials/footer') %>

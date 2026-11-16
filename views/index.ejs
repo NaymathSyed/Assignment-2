@@ -1,95 +1,33 @@
 <%- include('partials/header') %>
 
-
-<!-- Home page introduction -->
-<section class="hero">
-    <div class="row align-items-center">
-
-        <!-- Introduction on the left -->
-        <div class="col-md-7">
-            <div class="hero-content">
-
-                <p class="intro-badge">
-                    Welcome to my portfolio
-                </p>
-
-                <h1>
-                    Hello, I'm an
-                    <span>IT Student & Developer.</span>
-                </h1>
-
-                <p class="hero-description">
-                    I enjoy programming, exploring technology,
-                    and building creative projects.
-                    Welcome to my personal portfolio!
-                </p>
-
-                <div class="hero-buttons">
-                    <a href="/projects" class="btn btn-purple">
-                        View My Projects
-                    </a>
-
-                    <a href="/contact" class="btn btn-contact">
-                        <i class="fa-solid fa-envelope"></i>
-                        Contact Me
-                    </a>
-                </div>
-
-            </div>
+<section class="hero row align-items-center g-4">
+    <div class="col-md-7">
+        <h1>Hi, I'm Naymath.</h1>
+        <div class="hero-description">
+            <p>I study Networking and IT Security and build small projects in Python and JavaScript.</p>
+            <p>I also like working with automotive technology.</p>
         </div>
 
-        <!-- Your picture on the right -->
-        <div class="col-md-5 text-center mt-4 mt-md-0">
-            <img src="/images/profile.jpg"
-                 alt="My profile picture"
-                 class="profile-picture img-fluid">
+        <div class="hero-actions">
+            <a href="/projects" class="btn btn-primary">View projects</a>
+            <a href="/contact">Get in touch</a>
         </div>
+    </div>
 
+    <div class="col-md-5 text-md-end">
+        <img src="/images/profile.jpg" alt="Naymath Syed" class="profile-picture img-fluid">
     </div>
 </section>
 
-<!-- Language section -->
-<section class="skills-preview text-center">
-    <h2>Different Languages I Work With</h2>
-
-    <div class="row mt-4">
-
-        <div class="col-md-3 col-6 mb-3">
-            <div class="skill-box">
-                <i class="fa-brands fa-html5"></i>
-                <p>HTML</p>
-            </div>
-        </div>
-
-        <div class="col-md-3 col-6 mb-3">
-            <div class="skill-box">
-                <i class="fa-brands fa-css3-alt"></i>
-                <p>CSS</p>
-            </div>
-        </div>
-
-        <div class="col-md-3 col-6 mb-3">
-            <div class="skill-box">
-                <i class="fa-brands fa-js"></i>
-                <p>JavaScript</p>
-            </div>
-        </div>
-
-        <div class="col-md-3 col-6 mb-3">
-            <div class="skill-box">
-                <i class="fa-brands fa-python"></i>
-                <p>Python</p>
-            </div>
-        </div>
-
-        <div class="col-md-3 col-6 mb-3">
-            <div class="skill-box">
-                <i class="cpp-icon">C++</i>
-                <p>C++</p>
-            </div>
-        </div>
-
-    </div>
+<section class="content-section" aria-labelledby="skills-heading">
+    <h2 id="skills-heading">What I work with</h2>
+    <ul class="skills-list">
+        <li><i class="fa-brands fa-html5" aria-hidden="true"></i> HTML</li>
+        <li><i class="fa-brands fa-css3-alt" aria-hidden="true"></i> CSS</li>
+        <li><i class="fa-brands fa-js" aria-hidden="true"></i> JavaScript</li>
+        <li><i class="fa-brands fa-python" aria-hidden="true"></i> Python</li>
+        <li>C++</li>
+    </ul>
 </section>
 
 <%- include('partials/footer') %>
